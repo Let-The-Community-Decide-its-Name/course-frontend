@@ -6,10 +6,6 @@ export default {
   ],
   theme: {
     extend: {
-      // backgroundImage: {
-      //   'hero-pattern': "url('./src/assets/home-img.jpg')",
-      //   'footer-texture': "url('/img/footer-texture.png')",
-      // }
     }
   },
   plugins: [],
