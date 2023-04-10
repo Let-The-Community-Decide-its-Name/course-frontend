@@ -3,7 +3,7 @@ import temporarybackroundimage from "../assets/temp-logo.jpg"
 
 function Navbar() {
     return(
-        <div className="flex items-center justify-between bg-black">
+        <div className="flex items-center justify-between bg-black px-10 py-3">
             <div>
                 <img src={temporarybackroundimage} alt="Navbar-logo" className="h-12 w-12"/>
             </div>

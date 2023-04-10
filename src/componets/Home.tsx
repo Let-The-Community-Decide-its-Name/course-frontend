@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import backgroundImage from "../assets/home-img.jpg"; 
 import { MagnifyingGlassIcon  } from '@heroicons/react/24/solid'
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import Content from "./Content";
+import Faq from "./Faq";
 
 function MyComponent() {
     return (
@@ -15,6 +16,8 @@ function MyComponent() {
 function Home() {
     const navigation = useNavigate();
     const [isUnderlinedArts, setIsUnderlinedArts] = useState<boolean | null>(null);
+    const location = useLocation();
+    const streamsStyle = "hover:border-b-2 transition duration-200 ease-in-out";
     return(
         <section>
         <div className="bg-center bg-cover h-screen mx-auto flex flex-col justify-center items-center" style={{ backgroundImage: `url(${backgroundImage})` }}>
@@ -24,17 +27,18 @@ function Home() {
                 </div>
                 <div className="space-x-5 flex justify-center text-3xl mb-3">
 
-                <button className="hover:border-b-2 transition duration-200 ease-in-out" onClick={()=> {
+                <button className={`${streamsStyle} ${location.pathname === "/arts"? "border-b-2": ""}`} onClick={()=> {
+                    console.log(location)
                     navigation("/arts")
                 }}>Art
                 </button>
 
-                <button className="hover:border-b-2 transition duration-200 ease-in-out" onClick={()=> {
+                <button className={`${streamsStyle} ${location.pathname === "/commerce"? "border-b-2": ""}`} onClick={()=> {
                     navigation("/commerce")
                 }}>Commerce
                 </button>
 
-                <button className="hover:border-b-2 transition duration-200 ease-in-out" onClick={()=> navigation("/science")}>Science</button>         
+                <button className={`${streamsStyle} ${location.pathname === "/science"? "border-b-2": ""}`} onClick={()=> navigation("/science")}>Science</button>         
                 </div>
 
             </div>
@@ -48,6 +52,7 @@ function Home() {
             </div>
         </div>
         <Content />
+        <Faq />
         </section>
     )
 }

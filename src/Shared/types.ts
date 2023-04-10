@@ -4,3 +4,9 @@ export interface ContentType {
     img:string
     
 }
+
+export interface FaqType {
+    icon: string,
+    tittle: string,
+    info: string
+}
