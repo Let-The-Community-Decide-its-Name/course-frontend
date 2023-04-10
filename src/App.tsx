@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Routes, Route  } from 'react-router-dom'
 import Commerce from './pages/Commerce'
 import Science from './pages/Science'
 import Arts from './pages/Arts'
+import Career from './pages/Career'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <Route path='/arts' element={<Arts />} />
     <Route path='/commerce' element={<Commerce />} />
     <Route path='/science' element={<Science />} />
+    <Route path='/career' element={<Career />} />
   </Routes>
 </Router>
 </div>

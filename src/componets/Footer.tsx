@@ -17,7 +17,7 @@ const Footer = (props: Props) => {
         </div>
     </center>
 
-    <div className='bg-yellow-700 pt-64 relative z-11'>
+    <div className='bg-slate-800 pt-64 relative z-11'>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi placeat reprehenderit libero commodi pariatur voluptatum. Excepturi et dolore quam eos id sunt voluptatibus, porro consequatur praesentium architecto ipsum temporibus ratione!</p>
     </div>
 

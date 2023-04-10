@@ -23,10 +23,10 @@ function Home() {
         <section>
         <div className="bg-center bg-cover h-screen mx-auto flex flex-col justify-center items-center" style={{ backgroundImage: `url(${backgroundImage})` }}>
             <div className="text-white">
-                <div className="mb-7 text-6xl">
+                <div className="mb-7 text-4xl md:text-7xl">
                 <p>Project Course</p>
                 </div>
-                <div className="space-x-5 flex justify-center text-3xl mb-3">
+                <div className="space-x-5 flex justify-center text-3xl md:text-4xl mb-3">
 
                 <button className={`${streamsStyle} ${location.pathname === "/arts"? "border-b-2": ""}`} onClick={()=> {
                     console.log(location)
@@ -46,7 +46,7 @@ function Home() {
 
             <div className=" w-[20%]">
             <form action="" className="flex justify-center items-center">
-                <input type="text" placeholder="Search Course" className="min-w-[300px] py-2 rounded-full px-2 mr-3"/>
+                <input type="text" placeholder="Search Course" className="min-w-[300px] py-2 rounded-full px-2 mr-3 mt-3"/>
             <MyComponent />
 
             </form>

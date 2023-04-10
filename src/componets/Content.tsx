@@ -24,7 +24,7 @@ const AboutContent:Array<ContentType> = [
 
 const Content = () => {
   return (
-    <section className="bg-black h-full px-24">
+    <section className="bg-black h-full px-10 md:px-24">
         <h1 className="text-center text-white text-4xl">About Us</h1>
         <div>
             {

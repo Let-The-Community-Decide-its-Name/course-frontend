@@ -1,5 +1,6 @@
 import React from "react";
 import temporarybackroundimage from "../assets/temp-logo.jpg"
+import { Link } from "react-router-dom";
 
 function Navbar() {
     return(
@@ -9,10 +10,14 @@ function Navbar() {
             </div>
             <div>
                 <ul className="flex text-white justify-end items-center space-x-5 text-3xl">
-                    <li>Home</li>
-                    <li>Career</li>
+                    <li>
+                        <Link to='/'>Home</Link>
+                    </li>
+                    <li>
+                        <Link to='/career'>Career</Link>
+                    </li>
                     <div className="bg-yellow-400 rounded-full px-8 pb-1 items-center text-black cursor-pointer hover:bg-yellow-600 transition duration-500">
-                    <li>Join</li>
+                    <a href="https://github.com/Let-The-Community-Decide-its-Name" target="blank">Join</a>
                     </div>
                 </ul>
             </div>
