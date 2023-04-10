@@ -4,6 +4,7 @@ import { MagnifyingGlassIcon  } from '@heroicons/react/24/solid'
 import { useNavigate, useLocation } from "react-router-dom";
 import Content from "./Content";
 import Faq from "./Faq";
+import Footer from "./Footer";
 
 function MyComponent() {
     return (
@@ -53,6 +54,7 @@ function Home() {
         </div>
         <Content />
         <Faq />
+        <Footer />
         </section>
     )
 }
