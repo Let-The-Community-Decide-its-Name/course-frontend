@@ -6,6 +6,7 @@ import Content from "./Content";
 import Faq from "./Faq";
 import Footer from "./Footer";
 
+
 function MyComponent() {
     return (
       <div>
