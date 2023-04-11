@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 type Props = {}
 
@@ -11,7 +12,7 @@ const Footer = (props: Props) => {
         <h1>Get Career Advice With</h1> 
         <h1>Zero Investment</h1> 
         <button className=' text-sm font-medium bg-black px-5 py-2 rounded-md mb-3 mt-5'>
-            Get Advise
+        <Link to='/career'>Get Advise</Link>
         </button> 
         <h1 className='text-sm font-normal text-black'>Absolutely Free!</h1> 
         </div>
