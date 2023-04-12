@@ -39,7 +39,7 @@ type Props = {};
 
 const Faq = (props: Props) => {
   return (
-    <section className="h-full md:h-full xl:h-screen mb-20 px-10">
+    <section className="h-full md:h-full mb-20 px-10">
       <div className="text-3xl text-white text-center mt-10 mb-8">FAQs</div>
 
       {/* FAQ CARDS */}
