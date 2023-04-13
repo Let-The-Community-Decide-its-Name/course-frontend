@@ -1,12 +1,12 @@
-import React from 'react'
-import Home from '../componets/Home'
+import React from "react";
+import Home from "../componets/Home";
 
 function Science() {
   return (
     <div>
-        <Home />
+      <Home />
     </div>
-  )
+  );
 }
 
-export default Science
+export default Science;

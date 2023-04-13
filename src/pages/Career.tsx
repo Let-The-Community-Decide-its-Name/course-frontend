@@ -1,11 +1,9 @@
-import React from 'react'
+import React from "react";
 
-type Props = {}
+type Props = {};
 
 function Career({}: Props) {
-  return (
-    <div>Career</div>
-  )
+  return <div>Career</div>;
 }
 
-export default Career
+export default Career;

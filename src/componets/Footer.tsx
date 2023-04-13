@@ -33,15 +33,4 @@ const Footer = (props: Props) => {
 
 export default Footer;
 
-{
-  /* <section className='mt-20'>
-<div className='flex flex-col items-center relative'>
-    <div className="bg-red-700 h-[300px] w-[70%] absolute z-10">
-        card
-    </div>
-    <footer className="bg-white h-[50vh] w-[100%] pt-60 relative">
-        Hello Footer
-    </footer>
-</div>
-</section> */
-}
+

@@ -1,12 +1,12 @@
-import React from 'react'
-import Home from '../componets/Home'
+import React from "react";
+import Home from "../componets/Home";
 
 function Arts() {
   return (
     <div>
-        <Home />
+      <Home />
     </div>
-  )
+  );
 }
 
-export default Arts
+export default Arts;
