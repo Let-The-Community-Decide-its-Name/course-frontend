@@ -23,16 +23,16 @@ const FaqContent: Array<FaqType> = [
     tittle: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, quos ut. Dolore ut hic nam ad facere ipsam voluptates, itaque repellat delectus earum aliquam odit incidunt laboriosam magnam! Consequuntur, ex?",
   },
-  {
-    icon: "icon",
-    tittle: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, quos ut. Dolore ut hic nam ad facere ipsam voluptates, itaque repellat delectus earum aliquam odit incidunt laboriosam magnam! Consequuntur, ex?",
-  },
-  {
-    icon: "icon",
-    tittle: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, quos ut. Dolore ut hic nam ad facere ipsam voluptates, itaque repellat delectus earum aliquam odit incidunt laboriosam magnam! Consequuntur, ex?",
-  },
+  // {
+  //   icon: "icon",
+  //   tittle: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  //   info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, quos ut. Dolore ut hic nam ad facere ipsam voluptates, itaque repellat delectus earum aliquam odit incidunt laboriosam magnam! Consequuntur, ex?",
+  // },
+  // {
+  //   icon: "icon",
+  //   tittle: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  //   info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, quos ut. Dolore ut hic nam ad facere ipsam voluptates, itaque repellat delectus earum aliquam odit incidunt laboriosam magnam! Consequuntur, ex?",
+  // },
 ];
 
 type Props = {};
