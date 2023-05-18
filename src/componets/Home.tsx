@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import backgroundImage from "../assets/home-img.jpg";
+// import backgroundImage from "../assets/home-img.jpg";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/solid";
 import { useNavigate, useLocation } from "react-router-dom";
 import Content from "./Content";
@@ -25,7 +25,7 @@ function Home() {
     <section>
       <div
         className="bg-center bg-cover h-screen mx-auto flex flex-col justify-center items-center"
-        style={{ backgroundImage: `url(${backgroundImage})` }}
+        // style={{ backgroundImage: `url(${backgroundImage})` }}
       >
         <div className="text-white">
           <div className="mb-7 text-4xl md:text-7xl">

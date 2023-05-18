@@ -30,8 +30,8 @@ const Content = () => {
     // transition={{ times: [0, 0.1, 0.9, 1] }}
     // >
 
-    <section className="bg-black h-full px-10 md:px-24">
-      <h1 className="text-center text-white text-4xl">About Us</h1>
+    <section className="h-full px-10 md:px-24">
+      <h1 className="text-center text-white text-4xl">MOTIVATION</h1>
       <div>
         {AboutContent.map((item, index) => (
           <ContentCard

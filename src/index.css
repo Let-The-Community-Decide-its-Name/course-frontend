@@ -4,5 +4,5 @@
 
 body,
 .root {
-  background-color: black;
+  background: linear-gradient(180deg, #2828BB 0%, rgba(30, 30, 30, 0) 100%);
 }
