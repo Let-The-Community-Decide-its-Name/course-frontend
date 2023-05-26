@@ -40,7 +40,7 @@ type Props = {};
 const Faq = (props: Props) => {
   return (
     <section className="h-full md:h-full mb-20 px-10">
-      <div className="text-3xl text-white text-center mt-10 mb-8">FAQs</div>
+      <div className="text-4xl text-white text-center mt-10 mb-10">FAQs</div>
 
       {/* FAQ CARDS */}
       <div className="grid grid-cols-1 md:grid-cols-2 mx-auto">

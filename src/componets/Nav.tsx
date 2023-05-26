@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div className="flex items-center justify-between px-10 py-3">
+    <div className="flex items-center justify-between px-10 py-3 mt-2 ml-10 mr-10">
       <div>
         <img
           src={temporarybackroundimage}
@@ -13,14 +13,14 @@ function Navbar() {
         />
       </div>
       <div>
-        <ul className="flex text-white justify-end items-center space-x-5 text-3xl">
+        <ul className="flex text-white justify-end items-center space-x-8 text-2xl">
           <li>
             <Link to="/">Home</Link>
           </li>
           <li>
             <Link to="/career">Career</Link>
           </li>
-          <div className="bg-yellow-400 rounded-full px-8 pb-1 items-center text-black cursor-pointer hover:bg-yellow-600 transition duration-500">
+          <div className="bg-[#E4E41B] rounded-3xl px-8 pb-1 items-center text-black cursor-pointer hover:bg-yellow-500 transition duration-300 text-2xl">
             <a
               href="https://github.com/Let-The-Community-Decide-its-Name"
               target="blank"

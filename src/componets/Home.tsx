@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import backgroundImage from "../assets/home-img.jpg";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/solid";
 import { useNavigate, useLocation } from "react-router-dom";
 import Content from "./Content";
@@ -9,7 +8,7 @@ import Footer from "./Footer";
 function MyComponent() {
   return (
     <div>
-      <MagnifyingGlassIcon className="h-6 w-6 text-white text-2xl cursor-pointer" />
+      <MagnifyingGlassIcon className="h-9 w-9 text-white text-2xl cursor-pointer" />
     </div>
   );
 }
@@ -23,13 +22,10 @@ function Home() {
   const streamsStyle = "hover:border-b-2 transition duration-200 ease-in-out";
   return (
     <section>
-      <div
-        className="bg-center bg-cover h-screen mx-auto flex flex-col justify-center items-center"
-        // style={{ backgroundImage: `url(${backgroundImage})` }}
-      >
+      <div className="h-screen mx-auto flex flex-col justify-center items-center">
         <div className="text-white">
           <div className="mb-7 text-4xl md:text-7xl">
-            <p>Project Course</p>
+            <p>PROJECT COURSE</p>
           </div>
           <div className="space-x-5 flex justify-center text-3xl md:text-4xl mb-3">
             <button
@@ -67,11 +63,11 @@ function Home() {
         </div>
 
         <div className=" w-[20%]">
-          <form action="" className="flex justify-center items-center">
+          <form className="flex justify-center items-center">
             <input
               type="text"
               placeholder="Search Course"
-              className="min-w-[300px] py-2 rounded-full px-2 mr-3 mt-3"
+              className="min-w-[500px] min-h-[50px] py-2 rounded-md px-2 mr-3 mt-3 border-black border-2 focus:border-sky-500 focus:ring-2 focus:ring-sky-500"
             />
             <MyComponent />
           </form>

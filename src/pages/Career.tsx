@@ -3,7 +3,7 @@ import React from "react";
 type Props = {};
 
 function Career({}: Props) {
-  return <div>Career</div>;
+  return <div>Coming soon!</div>;
 }
 
 export default Career;
