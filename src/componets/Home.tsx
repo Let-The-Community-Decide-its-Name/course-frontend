@@ -4,6 +4,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import Content from "./Content";
 import Faq from "./Faq";
 import Footer from "./Footer";
+import Course from "./Course";
 
 function MyComponent() {
   return (
@@ -22,7 +23,7 @@ function Home() {
   const streamsStyle = "hover:border-b-2 transition duration-200 ease-in-out";
   return (
     <section>
-      <div className="h-screen mx-auto flex flex-col justify-center items-center">
+      <div className="mt-28 mb-24 mx-auto flex flex-col justify-center items-center">
         <div className="text-white">
           <div className="mb-7 text-4xl md:text-7xl">
             <p>PROJECT COURSE</p>
@@ -73,6 +74,7 @@ function Home() {
           </form>
         </div>
       </div>
+      <Course />
       <Content />
       <Faq />
       <Footer />
