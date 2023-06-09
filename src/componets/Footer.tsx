@@ -18,17 +18,15 @@ const Footer = (props: Props) => {
           </div>
         </center>
 
-        <div className="bg-[#747A8B] pt-64 relative z-11 mt-14">
-          <p className="flex justify-center">
-            Copyright © Free Course 2023. All Rights Reserved Community
-          </p>
-          {/* <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr> */}
-          {/* <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi
-            placeat reprehenderit libero commodi pariatur voluptatum. Excepturi
-            et dolore quam eos id sunt voluptatibus, porro consequatur
-            praesentium architecto ipsum temporibus ratione!
-          </p> */}
+        <div className="bg-[#747A8B] pt-48 relative z-11 mt-16 px-12">
+          <div className="">
+            <p className="">Home Career Join Blog About Us</p>
+          </div>
+
+          <hr className="h-px bg-gray-200 border-0" />
+          <div className="flex justify-center pt-2 pb-2">
+            <p>Copyright © Free Course 2023. All Rights Reserved Community</p>
+          </div>
         </div>
       </div>
     </div>

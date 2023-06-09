@@ -13,11 +13,11 @@ function Course() {
           </div>
         </div>
         <div>
-          <div className="text-[28px] bg-white w-[1230px] h-16 px-5 py-2 mb-4">
+          <div className="text-[28px] bg-white md:min-w-[1230px] h-16 px-5 py-2 mb-4">
             Course Title
           </div>
-          <div className="text-[18px] bg-white w-[1230px] h-16 px-5 py-2">
-            Course Description
+          <div className="text-[18px] bg-white md:min-w-[1230px] h-16 px-5 py-2">
+            Course Description 
           </div>
         </div>
       </div>

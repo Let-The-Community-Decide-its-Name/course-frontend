@@ -68,7 +68,7 @@ function Home() {
             <input
               type="text"
               placeholder="Search Course"
-              className="min-w-[500px] min-h-[50px] py-2 rounded-md px-2 mr-3 mt-3 border-black border-2 focus:border-sky-500 focus:ring-2 focus:ring-sky-500"
+              className="md:min-w-[500px] min-w-[300px] min-h-[50px] py-2 rounded-md px-2 mr-3 mt-3 border-black border-2 focus:border-sky-500 focus:ring-2 focus:ring-sky-500"
             />
             <MyComponent />
           </form>
