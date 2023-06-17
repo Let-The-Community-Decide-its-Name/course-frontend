@@ -17,7 +17,7 @@ function Course() {
             Course Title
           </div>
           <div className="text-[18px] bg-white md:min-w-[1230px] h-16 px-5 py-2">
-            Course Description 
+            Course Description
           </div>
         </div>
       </div>
